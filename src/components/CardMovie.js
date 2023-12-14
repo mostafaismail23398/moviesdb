@@ -7,7 +7,7 @@ const CardMovie = ({mov}) => {
   return (
     <Col  xs="6" md="4" lg="3" className='my-1' >
       <Link to={`/movie/${mov.id}`}>
-        <div className='card'>
+        <div className='card animate__animated animate__fadeInUpBig'>
             <img src={`https://image.tmdb.org/t/p/w500`+mov.poster_path} className='card__image' alt='hu'/>
             <div className='card__overlay'>
                 <div className='overlay__text text-center w-100 p-2'>
